@@ -1,8 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EraseAller : MonoBehaviour
 {
-	public void EraseAll() => LineManager.DestroyLines();
+	public void Start()
+	{
+		GetComponent<Button>().onClick.AddListener(LineManager.DestroyLines);
+	}
 }

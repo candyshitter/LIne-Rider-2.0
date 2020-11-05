@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
@@ -7,9 +6,6 @@ public class LineEditorManager
 {
 	public ILineEditor CurrentLineEditor { get; private set; }
 	private readonly Dictionary<LineEditorType, ILineEditor> _lineCreators = new Dictionary<LineEditorType, ILineEditor>();
-
-	private event Action<LineEditorType> OnEditorChanged =
-		editorType => Debug.Log($"Changed to {editorType}");
 
 	private ILineEditor GetLineEditor(LineEditorType lineEditorType) =>
 		!_lineCreators.ContainsKey(lineEditorType) ? null : _lineCreators[lineEditorType];
@@ -24,7 +20,7 @@ public class LineEditorManager
 		if (CurrentLineEditor != null)
 			CurrentLineEditor.CurrentLine = null;
 		CurrentLineEditor = lineEditor;
-		OnEditorChanged.Invoke(lineEditorType);
+		Debug.Log($"Changed to {lineEditorType}");
 	}
 
 	public void Tick()
@@ -33,12 +29,18 @@ public class LineEditorManager
 		if(CurrentLineEditor.CurrentLine == null) return;
 		if (CurrentLineEditor.StopEditing())
 		{
-			if (CurrentLineEditor.CurrentLine.PointCount < 2)
-				Object.Destroy(CurrentLineEditor.CurrentLine.gameObject);
-			CurrentLineEditor.CurrentLine = null;
+			StopEditing();
 			return;
 		}
 		CurrentLineEditor.UpdateLine();
+	}
+
+	public void StopEditing()
+	{
+		if (CurrentLineEditor.CurrentLine != null && 
+		    CurrentLineEditor.CurrentLine.PointCount < 2)
+				Object.Destroy(CurrentLineEditor.CurrentLine.gameObject);
+		CurrentLineEditor.CurrentLine = null;
 	}
 }
 

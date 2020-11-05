@@ -1,18 +1,17 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ChangeLinePrefab : MonoBehaviour
 {
 	[SerializeField] private Line linePrefab;
-	[SerializeField] private bool startsSelected;
 	
 	private void Start()
 	{
-		GetComponent<Button>().onClick.AddListener(
-			() => LineManager.SetLinePrefab(linePrefab));
+		Toggle toggle;
+	 	(toggle = GetComponent<Toggle>()).onValueChanged.AddListener(
+			(state) => LineManager.SetLinePrefab(linePrefab));
 		
-		if(startsSelected)
+		if(toggle.isOn)
 			LineManager.SetLinePrefab(linePrefab);
 	}
 }

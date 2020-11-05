@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class LineManager : MonoBehaviour
 {
@@ -23,7 +21,7 @@ public class LineManager : MonoBehaviour
 
 	public static void DestroyLines()
 	{
-		foreach (var line in FindObjectsOfType<ColliderLine>())
+		foreach (var line in FindObjectsOfType<Line>())
 			Destroy(line.gameObject);
 		Instance.LineEditorManager.CurrentLineEditor.CurrentLine = null;
 	}
@@ -60,5 +58,6 @@ public class LineManager : MonoBehaviour
 	{
 		if (linePrefab != null)
 			Instance.CurrentLine = linePrefab;
+		Instance.LineEditorManager.StopEditing();
 	}
 }

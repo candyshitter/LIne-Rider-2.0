@@ -10,7 +10,7 @@ public class MoveLineEditor : BaseEditor, ILineEditor
 	{
 		if (!Input.GetMouseButton(0) || CurrentLine != null) return;
 		
-		var line = camera.GetComponentAtScreenPosition<ColliderLine>();
+		var line = camera.GetComponentAtScreenPosition<Line>();
 		if (line == null) return;
 		CurrentLine = line;
 		_offset = (Vector2) CurrentLine.transform.position - MouseWorldPos;

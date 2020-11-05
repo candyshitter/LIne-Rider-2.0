@@ -49,6 +49,7 @@ public class Player : MonoBehaviour
 	public void ResetPosition()
 	{
 		GameStateHolder.IsPlaying = false;
+		PlayToggle.Reset();
 		transform.position = _startingPosition;
 		_velocity = default;
 		OnResetPos?.Invoke();

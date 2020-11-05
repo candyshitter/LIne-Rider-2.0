@@ -3,12 +3,76 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c967c0d-5b23-4347-9d14-cb4ed0293879" name="Default Changelist" comment="" />
+    <list default="true" id="1c967c0d-5b23-4347-9d14-cb4ed0293879" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PlayToggle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/DrawNormal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Icons/DrawNormal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/DrawNormal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Icons/DrawNormal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/DrawStraight.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Icons/DrawStraight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/Erase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/Erase.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/EraseLine.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Icons/EraseLine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/EraseSegment.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Icons/EraseSegment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/Move.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Icons/Move.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Background.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/Background.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Background.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/Background.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/BaseLine.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/BaseLine.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Bouncy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/Bouncy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Bouncy.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/Bouncy.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Normal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Normal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Speedy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/Speedy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Line Changer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Line Changer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Prefab Changer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Prefab Changer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RidingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RidingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UIScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UIScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLinePrefab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLinePrefab.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/ColliderLine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/ColliderLine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/Line.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/Line.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/EraseAller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/EraseAller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PauseButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PauseButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PlayButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PlayButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PlayToggle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8B5D99AE-2BED-4BFE-BB18-2C7D461A44CC/ce/748091bb/SurfaceEffector2D.cs" root0="SKIP_HIGHLIGHTING" />
@@ -40,6 +104,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/90/efad6ca1/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.3/Runtime/Behaviours/CinemachineVirtualCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/1b/22ab107c/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8788DF23-D12C-4548-A89D-2A54A21132B9/29/cfcee517/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/51/6dc2a6ab/UnityAction`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/eb/b07c2374/IEquatable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8B5D99AE-2BED-4BFE-BB18-2C7D461A44CC/ce/d3420759/ForceMode2D.cs" root0="SKIP_HIGHLIGHTING" />
@@ -67,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ILineCreator.cs" />
-        <option value="$PROJECT_DIR$/Assets/StraightLineCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/NormalLineCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/ResetButton.cs" />
@@ -88,20 +151,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseSegmentEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseSelectEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseLineEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ExtensionMethods.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLinePrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/SpeedyLine.cs" />
         <option value="$PROJECT_DIR$/Assets/SpeedyEffector.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraFollowButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ColliderLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ToggleGroup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/RadioGroup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeedyEffector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/Line.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/NormalLineEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/StraightLineEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseDrawEditor.cs" />
@@ -109,15 +165,24 @@
         <option value="$PROJECT_DIR$/Assets/GameStateHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraFollowToggle.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PauseButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameStateHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ResetButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ILineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PlayButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ResetButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/PlayToggle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/EraseAller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLinePrefab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/Line.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ColliderLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" />
       </list>
     </option>
   </component>
@@ -156,6 +221,18 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -243,10 +320,33 @@
     </state>
     <state width="623" height="498" key="SwitcherDM/0.0.3376.1440@0.0.3376.1440" timestamp="1604017069040" />
     <state width="623" height="498" key="SwitcherDM/0.0.3377.1440@0.0.3377.1440" timestamp="1602930748204" />
-    <state x="1463" y="323" width="840" height="1034" key="search.everywhere.popup" timestamp="1604084230878">
+    <state x="1681" y="0" width="1702" height="1447" key="dock-window-1" timestamp="1604599749388">
       <screen x="0" y="0" width="3376" height="1440" />
     </state>
-    <state x="1463" y="323" width="840" height="1034" key="search.everywhere.popup/0.0.3376.1440@0.0.3376.1440" timestamp="1604084230878" />
+    <state x="1681" y="0" width="1702" height="1447" key="dock-window-1/0.0.3376.1440@0.0.3376.1440" timestamp="1604599749388" />
+    <state x="1463" y="323" width="840" height="1034" key="search.everywhere.popup" timestamp="1604598940630">
+      <screen x="0" y="0" width="3376" height="1440" />
+    </state>
+    <state x="1463" y="323" width="840" height="1034" key="search.everywhere.popup/0.0.3376.1440@0.0.3376.1440" timestamp="1604598940630" />
     <state x="1463" y="323" width="840" height="1034" key="search.everywhere.popup/0.0.3377.1440@0.0.3377.1440" timestamp="1603546326449" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs</url>
+          <line>24</line>
+          <properties documentPath="F:\Game Projects\LIne Rider 2.0\Assets\Scripts\Line Related\LineManager.cs" initialLine="24">
+            <startOffsets>
+              <option value="534" />
+            </startOffsets>
+            <endOffsets>
+              <option value="559" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -6,10 +6,16 @@ public class Line : MonoBehaviour
 {
 	[SerializeField] protected List<Vector2> points = new List<Vector2>();
 	private LineRenderer _lineRenderer;
+	private EdgeCollider2D _collider;
+
 	public int PointCount => points.Count;
 	private int EndIndex => points.Count - 1;
 
-	protected virtual void Awake() => _lineRenderer = GetComponent<LineRenderer>();
+	private void Awake()
+	{
+		_lineRenderer = GetComponent<LineRenderer>();
+		_collider = GetComponent<EdgeCollider2D>();
+	}
 
 	private bool TooFewPoints(int max = 1)
 	{
@@ -24,11 +30,13 @@ public class Line : MonoBehaviour
 			AddSegment(segment);
 	}
 
-	protected virtual void AddSegment(Vector2 point)
+	private void AddSegment(Vector2 point)
 	{
 		points.Add(point);
 		_lineRenderer.positionCount = points.Count;
 		_lineRenderer.SetPosition(EndIndex, point);
+		if (points.Count < 2) return;
+		_collider.points = points.ToArray();
 	}
 
 	public void RemoveSegment(Vector2 mousePos)
@@ -92,9 +100,10 @@ public class Line : MonoBehaviour
 			_lineRenderer.SetPosition(i, points[i]);
 	}
 
-	protected virtual void SetLinePoints()
+	private void SetLinePoints()
 	{
 		_lineRenderer.positionCount = points.Count;
+		_collider.points = points.ToArray();
 	}
 
 	private void RemoveRange(int index, int count)

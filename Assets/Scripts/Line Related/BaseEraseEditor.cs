@@ -8,7 +8,7 @@ public abstract class BaseEraseEditor : BaseEditor, ILineEditor
 	public void CheckForLine()
 	{
 		if (!Input.GetMouseButton(0)) return;
-		var line = camera.GetComponentAtScreenPosition<ColliderLine>();
+		var line = camera.GetComponentAtScreenPosition<Line>();
 		if (line == null) return;
 		CurrentLine = line;
 	}
