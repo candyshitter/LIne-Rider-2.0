@@ -10,12 +10,16 @@ public class MoveLineEditor : BaseEditor, ILineEditor
 	{
 		if (!Input.GetMouseButton(0) || CurrentLine != null) return;
 		
-		var line = camera.GetComponentAtScreenPosition<Line>();
-		if (line == null) return;
-		CurrentLine = line;
+		CurrentLine = camera.GetComponentAtScreenPosition<Line>(Input.mousePosition);
+		if (CurrentLine == null) return;
+		Debug.Log("hollo");
 		_offset = (Vector2) CurrentLine.transform.position - MouseWorldPos;
 	}
 
 	public bool StopEditing() => Input.GetMouseButtonUp(0);
-	public void UpdateLine() => CurrentLine.transform.position = MouseWorldPos + _offset;
+	public void UpdateLine()
+	{
+		CurrentLine.transform.position = MouseWorldPos + _offset;
+		Debug.Log("moving");
+	}
 }

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(LineRenderer))]
+[RequireComponent(typeof(LineRenderer), typeof(EdgeCollider2D))]
 public class Line : MonoBehaviour
 {
 	[SerializeField] protected List<Vector2> points = new List<Vector2>();

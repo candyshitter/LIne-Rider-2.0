@@ -2,9 +2,9 @@
 
 public static class ExtensionMethods
 {
-	public static T GetComponentAtScreenPosition<T>(this Camera cam) where T : Component
+	public static T GetComponentAtScreenPosition<T>(this Camera cam, Vector2 position) where T : Component
 	{
-		var mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+		var mousePos = cam.ScreenToWorldPoint(position);
 		var hit = Physics2D.OverlapCircle(mousePos, 0.04f);
 		return hit != null ? hit.GetComponent<T>() : null;
 	}
@@ -16,4 +16,5 @@ public static class ExtensionMethods
 		=> Mathf.Abs(a-b) < 0.01f || 
 		   a > original && original > b ||
 		   a < original && original < b;
+	
 }
