@@ -23,19 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c967c0d-5b23-4347-9d14-cb4ed0293879" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/ResolutionDropdown.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LIne Rider 2.0/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/Move.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Icons/Move.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Artwork/Icons/Move.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Artwork/Icons/Move.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Line.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/Line.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UI Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/UI Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuitButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuitButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RidingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RidingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/ExtensionMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ExtensionMethods.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/Line.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/Line.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenModeDropdown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenModeDropdown.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResolutionDropdown.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SettingsButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SettingsButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/aa/caa92c86/ScreenShimBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8B5D99AE-2BED-4BFE-BB18-2C7D461A44CC/ce/748091bb/SurfaceEffector2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/46/8261ca8d/IReadOnlyList`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8B5D99AE-2BED-4BFE-BB18-2C7D461A44CC/47/2cb804ae/RaycastHit2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unity/2020.2.0b8/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ToggleGroup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unity/2020.2.0b8/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Toggle.cs" root0="SKIP_HIGHLIGHTING" />
@@ -96,15 +95,20 @@
     <setting file="file://$PROJECT_DIR$/../../Unity/2020.2.0b8/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03D6B81D-BDC1-44C4-8B32-6B6B735D45EF/14/abaec35a/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/b3/9b00c6f4/WaitForSecondsRealtime.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PauseCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/641CE342-D85E-4521-B08C-2435C13C4A8A/c1/dbeedcd3/PhysicsScene.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/5f/789958ab/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/1b/0d6cf67d/Camera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/23/e9a89b06/FullScreenMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/fb/e4ba4453/EditorScreen.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/ae/11d2203e/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScreenModeDropdown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/20/5875fc54/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/1b/7d307b22/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/3f/2d3dd81b/MethodImplAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8B5D99AE-2BED-4BFE-BB18-2C7D461A44CC/cf/042e1fb5/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03D6B81D-BDC1-44C4-8B32-6B6B735D45EF/b6/348804f4/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E343A50-1331-48B6-B99F-9915103A7AF3/c2/5cefcd9f/Application.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/e0/844a6f6f/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/ea/f860c90c/Array.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/8B5D99AE-2BED-4BFE-BB18-2C7D461A44CC/83/9ceed51f/02000035.il" root0="SKIP_HIGHLIGHTING" />
@@ -112,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/EraseSegmentButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/CameraZoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ILineCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/NormalLineCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/StraightLineCreator.cs" />
@@ -157,12 +159,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/Line.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/QuitButton.cs" />
         <option value="$PROJECT_DIR$/Assets/ContinueButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/SettingsButton.cs" />
         <option value="$PROJECT_DIR$/Assets/ScreenmodeDropdown.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ExtensionMethods.cs" />
+        <option value="$PROJECT_DIR$/Assets/ResolutionDropdown.cs" />
         <option value="$PROJECT_DIR$/Assets/ScreenModeDropdown.cs" />
+        <option value="$PROJECT_DIR$/Assets/PauseCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/SettingsButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/QuitButton.cs" />
       </list>
     </option>
   </component>
@@ -179,6 +183,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../My Games/Line Rider 0.2\Line Rider 2.0.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="F:\My Games\Line Rider 0.2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -300,10 +312,10 @@
     </state>
     <state width="623" height="498" key="SwitcherDM/0.0.3376.1440@0.0.3376.1440" timestamp="1604017069040" />
     <state width="623" height="498" key="SwitcherDM/0.0.3377.1440@0.0.3377.1440" timestamp="1602930748204" />
-    <state x="1089" y="266" width="1410" height="998" key="VCS.FileHistoryDialog" timestamp="1604669924649">
+    <state x="1089" y="266" width="1410" height="998" key="VCS.FileHistoryDialog" timestamp="1604688334828">
       <screen x="0" y="0" width="3376" height="1440" />
     </state>
-    <state x="1089" y="266" width="1410" height="998" key="VCS.FileHistoryDialog/0.0.3376.1440@0.0.3376.1440" timestamp="1604669924649" />
+    <state x="1089" y="266" width="1410" height="998" key="VCS.FileHistoryDialog/0.0.3376.1440@0.0.3376.1440" timestamp="1604688334828" />
     <state x="843" y="0" width="1702" height="1447" key="dock-window-1" timestamp="1604670926150">
       <screen x="0" y="0" width="3376" height="1440" />
     </state>
