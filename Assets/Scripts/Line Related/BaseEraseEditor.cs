@@ -1,11 +1,8 @@
 ﻿using UnityEngine;
 
-public abstract class BaseEraseEditor : BaseEditor, ILineEditor
+public abstract class BaseEraseEditor : BaseEditor
 {
-	public Line CurrentLine { get; set; }
-	protected BaseEraseEditor(LineManager lineManager, Camera camera) : base(lineManager, camera) { }
-
-	public void CheckForLine()
+	protected override void CheckForLine()
 	{
 		if (!Input.GetMouseButton(0)) return;
 		var line = camera.GetComponentAtScreenPosition<Line>(Input.mousePosition);
@@ -13,6 +10,5 @@ public abstract class BaseEraseEditor : BaseEditor, ILineEditor
 		CurrentLine = line;
 	}
 
-	public bool StopEditing() => Input.GetMouseButtonUp(0);
-	public abstract void UpdateLine();
+	protected override bool StopEditing() => Input.GetMouseButtonUp(0);
 }

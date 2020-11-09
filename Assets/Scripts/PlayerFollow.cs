@@ -4,7 +4,6 @@ public class PlayerFollow
 {
 	private CameraFollow CameraFollow => CameraFollow.Instance;
 	
-	//todo: camera is lagging behind. Looks ugly
 	public void FollowPlayer()
 	{
 		if (!GameStateHolder.IsPlaying) return;

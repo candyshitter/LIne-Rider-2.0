@@ -17,12 +17,17 @@ public class CameraZoom : MonoBehaviour
 
 	private void Update()
 	{
-		var zoom = Input.GetAxis("Mouse ScrollWheel");
-		_targetZoom -= zoom * zoomStep;
+		Zoom(-Input.GetAxis("Mouse ScrollWheel"));
+	}
+
+	public void Zoom(float zoom)
+	{
+		_targetZoom += zoom * zoomStep;
 		_targetZoom = Mathf.Clamp(_targetZoom, minZoom, maxZoom);
-		_camera.orthographicSize = Mathf.Lerp(
-			_camera.orthographicSize, 
-			_targetZoom, 
+		var lerp = Mathf.Lerp(
+			_camera.orthographicSize,
+			_targetZoom,
 			Time.deltaTime * zoomLerpSpeed);
+		_camera.orthographicSize = lerp;
 	}
 }

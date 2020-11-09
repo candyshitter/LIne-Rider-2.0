@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
 {
-	private const int MAX_SPEED = 75; //Depends on the Fixed update time step (0.008)
+	private const int MAX_SPEED = 64; //Depends on the Fixed update time step (0.008)
 	private Rigidbody2D _rigidBody;
 	private Vector3 _startingPosition;
 	private Vector2 _velocity;

@@ -4,14 +4,12 @@ using UnityEngine.EventSystems;
 
 public abstract class BaseDrawEditor : BaseEditor
 {
-	protected BaseDrawEditor(LineManager lineManager, Camera camera) : base(lineManager, camera) { }
-	public Line CurrentLine { get; set; }
 	protected virtual bool CanDraw => Input.GetMouseButtonDown(0) && ValidMousePos();
 
-	public void CheckForLine()
+	protected override void CheckForLine()
 	{
 		if (CanDraw)
-			CurrentLine = Object.Instantiate(lineManager.CurrentLine);
+			CurrentLine = Object.Instantiate(LineManager.CurrentLine);
 	}
 
 	private static bool ValidMousePos()

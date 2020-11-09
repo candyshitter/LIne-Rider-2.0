@@ -1,11 +1,13 @@
+using System;
 using UnityEngine;
 
 public class LineManager : MonoBehaviour
 {
 	public static LineManager Instance { get; private set; }
-	public Line CurrentLine { get; private set; }
 	[SerializeField] private LineEditorType editorType;
-	public LineEditorManager LineEditorManager { get; private set; }
+	public Camera Camera { get; private set; }
+	public static Line CurrentLine { get; private set; }
+	public EditorManager EditorManager { get; private set; }
 
 	private bool ValidateInstance()
 	{
@@ -23,41 +25,47 @@ public class LineManager : MonoBehaviour
 	{
 		foreach (var line in FindObjectsOfType<Line>())
 			Destroy(line.gameObject);
-		Instance.LineEditorManager.CurrentLineEditor.CurrentLine = null;
+		Instance.EditorManager.CurrentLine = null;
 	}
 
 	private void Awake()
 	{
 		if (ValidateInstance()) return;
-		var mainCamera = Camera.main;
-		LineEditorManager = new LineEditorManager();
-		LineEditorManager.AddLineEditor(
+		Camera = Camera.main;
+		EditorManager = new EditorManager();
+		EditorManager.AddLineEditor(
 			LineEditorType.Normal,
-			new NormalLineEditor(this, mainCamera));
-		LineEditorManager.AddLineEditor(
+			new NormalLineEditor());
+		EditorManager.AddLineEditor(
 			LineEditorType.Straight,
-			new StraightLineEditor(this, mainCamera));
-		LineEditorManager.AddLineEditor(
+			new StraightLineEditor());
+		EditorManager.AddLineEditor(
 			LineEditorType.LineErase,
-			new EraseLineEditor(this, mainCamera));
-		LineEditorManager.AddLineEditor(
+			new EraseLineEditor());
+		EditorManager.AddLineEditor(
 			LineEditorType.SegmentErase,
-			new EraseSegmentEditor(this, mainCamera));
-		LineEditorManager.AddLineEditor(
+			new EraseSegmentEditor());
+		EditorManager.AddLineEditor(
 			LineEditorType.Erase,
-			new EraseEditor(this, mainCamera));
-		LineEditorManager.AddLineEditor(
+			new EraseEditor());
+		EditorManager.AddLineEditor(
 			LineEditorType.Move,
-			new MoveLineEditor(this, mainCamera));
-		LineEditorManager.SetLineCreator(editorType);
+			new MoveLineEditor());
+		EditorManager.AddLineEditor(
+			LineEditorType.Pan,
+			new PanEditor());
+		EditorManager.AddLineEditor(
+			LineEditorType.Zoom,
+			new ZoomEditor());
+		EditorManager.SetLineCreator(editorType);
 	}
 
-	private void Update() => LineEditorManager.Tick();
+	private void Update() => EditorManager.Tick();
 
 	public static void SetLinePrefab(Line linePrefab)
 	{
 		if (linePrefab != null)
-			Instance.CurrentLine = linePrefab;
-		Instance.LineEditorManager.StopEditing();
+			CurrentLine = linePrefab;
+		LineEditorManager.StopEditing();
 	}
 }

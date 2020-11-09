@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a2735d8-b70c-42fc-a689-3b7e4f679c87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EditorManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EditorManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/PanEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/PanEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ZoomEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ZoomEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PauseCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PauseCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Brushes.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Brushes.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Line Changer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Line Changer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RidingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RidingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraZoom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseDrawEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseDrawEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseLineEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseSegmentEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseSegmentEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/ILineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ILineEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/NormalLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/NormalLineEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/StraightLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/StraightLineEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerFollow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96FE0EDD-95C7-41B2-91E6-7722B91BD84F/57/777e3867/SerializeField.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/PauseCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseLineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ILineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/NormalLineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/StraightLineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseSegmentEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/PanEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraZoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ZoomEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseDrawEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/EditorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k0mv5Py98Hnuyj8mqReO1MMWQu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a2735d8-b70c-42fc-a689-3b7e4f679c87" name="Default Changelist" comment="" />
+      <created>1604846125745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604846125745</updated>
+      <workItem from="1604846149798" duration="8237000" />
+      <workItem from="1604938789304" duration="1401000" />
+      <workItem from="1604940701565" duration="3833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="757" y="225" key="RiderGenerateDialog" timestamp="1604872297426">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="757" y="225" key="RiderGenerateDialog/0.0.1857.1080@0.0.1857.1080" timestamp="1604872297426" />
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604951461587">
+      <screen x="0" y="0" width="1857" height="1080" />
+    </state>
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1857.1080@0.0.1857.1080" timestamp="1604951461587" />
+  </component>
+</project>

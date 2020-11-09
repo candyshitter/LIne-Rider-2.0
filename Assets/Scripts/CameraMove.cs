@@ -3,16 +3,19 @@
 public class CameraMove : MonoBehaviour
 {
 	private Camera _camera;
-	private Vector3 _startPosition;
+	public Vector3 StartPosition { get; set; }
+	public Vector3 MouseToWorld => _camera.ScreenToWorldPoint(Input.mousePosition);
 
 	private void Awake() => _camera = GetComponent<Camera>();
 
 	private void Update()
 	{
-		if (Input.GetMouseButtonDown(2)) 
-			_startPosition = _camera.ScreenToWorldPoint(Input.mousePosition);
+		if (Input.GetMouseButtonDown(2))
+			StartPosition = MouseToWorld;
 		if (!Input.GetMouseButton(2)) return;
-		var direction = _startPosition - _camera.ScreenToWorldPoint(Input.mousePosition);
-		_camera.transform.position += direction;
+		MoveCamera();
 	}
+
+	public void MoveCamera() => 
+		_camera.transform.position += StartPosition - _camera.ScreenToWorldPoint(Input.mousePosition);
 }

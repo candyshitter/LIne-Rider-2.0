@@ -1,13 +1,11 @@
 ﻿using UnityEngine;
-public class StraightLineEditor : BaseDrawEditor, ILineEditor
+public class StraightLineEditor : BaseDrawEditor
 {
-	public StraightLineEditor(LineManager lineManager, Camera camera) : base(lineManager, camera) { }
-
-	public bool StopEditing() => Input.GetMouseButtonDown(1);
+	protected override bool StopEditing() => Input.GetMouseButtonDown(1);
 
 	protected override bool CanDraw => base.CanDraw && CurrentLine == null;
 
-	public void UpdateLine()
+	protected override void UpdateLine()
 	{
 		if(base.CanDraw && CurrentLine != null)
 			CurrentLine.UpdateLine(MouseWorldPos);
