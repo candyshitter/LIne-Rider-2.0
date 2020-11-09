@@ -25,8 +25,6 @@ public class PauseCanvas : MonoBehaviour
     private void PauseGame()
     {
         pausePanel.SetActive(true);
-        GameStateHolder.IsPlaying = false;
-        PlayToggle.Reset();
         Time.timeScale = 0;
     }
 }

@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2735d8-b70c-42fc-a689-3b7e4f679c87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Line-Rider-2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Line-Rider-2.0/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PauseCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PauseCanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScreenModeDropdown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScreenModeDropdown.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9627032-6887-4EDC-9774-216522BE7D07/ac/6c2fd983/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96FE0EDD-95C7-41B2-91E6-7722B91BD84F/a3/fb73aa87/WaitForFixedUpdate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96FE0EDD-95C7-41B2-91E6-7722B91BD84F/42/2b386ecf/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96FE0EDD-95C7-41B2-91E6-7722B91BD84F/57/777e3867/SerializeField.cs" root0="SKIP_HIGHLIGHTING" />
@@ -117,7 +116,7 @@
       <workItem from="1604846149798" duration="8237000" />
       <workItem from="1604938789304" duration="1401000" />
       <workItem from="1604940701565" duration="3833000" />
-      <workItem from="1604961874697" duration="2287000" />
+      <workItem from="1604961874697" duration="2712000" />
     </task>
     <servers />
   </component>
