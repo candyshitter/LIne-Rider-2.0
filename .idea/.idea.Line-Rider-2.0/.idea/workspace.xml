@@ -20,37 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2735d8-b70c-42fc-a689-3b7e4f679c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EditorManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EditorManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/PanEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/PanEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ZoomEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ZoomEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Line-Rider-2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Line-Rider-2.0/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PauseCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PauseCanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Brushes.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Brushes.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Line Changer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Line Changer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RidingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RidingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraZoom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseDrawEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseDrawEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEraseEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseLineEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseSegmentEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseSegmentEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/ILineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/ILineEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineEditorManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/MoveLineEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/NormalLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/NormalLineEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line Related/StraightLineEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Line Related/StraightLineEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenModeDropdown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScreenModeDropdown.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +33,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96FE0EDD-95C7-41B2-91E6-7722B91BD84F/a3/fb73aa87/WaitForFixedUpdate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96FE0EDD-95C7-41B2-91E6-7722B91BD84F/42/2b386ecf/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96FE0EDD-95C7-41B2-91E6-7722B91BD84F/57/777e3867/SerializeField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96FE0EDD-95C7-41B2-91E6-7722B91BD84F/8d/e7dad361/FullScreenMode.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/PauseCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ChangeLineCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/EraseLineEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/ILineEditor.cs" />
@@ -84,9 +58,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseDrawEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/BaseEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/EditorManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Line Related/LineManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScreenModeDropdown.cs" />
+        <option value="$PROJECT_DIR$/Assets/PauseCanvas.cs" />
       </list>
     </option>
   </component>
@@ -141,6 +117,7 @@
       <workItem from="1604846149798" duration="8237000" />
       <workItem from="1604938789304" duration="1401000" />
       <workItem from="1604940701565" duration="3833000" />
+      <workItem from="1604961874697" duration="2287000" />
     </task>
     <servers />
   </component>
@@ -169,9 +146,9 @@
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
     <state x="757" y="225" key="RiderGenerateDialog/0.0.1857.1080@0.0.1857.1080" timestamp="1604872297426" />
-    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604951461587">
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604961908319">
       <screen x="0" y="0" width="1857" height="1080" />
     </state>
-    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1857.1080@0.0.1857.1080" timestamp="1604951461587" />
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1857.1080@0.0.1857.1080" timestamp="1604961908319" />
   </component>
 </project>

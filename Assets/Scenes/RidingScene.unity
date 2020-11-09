@@ -1045,9 +1045,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 915310420}
     m_Modifications:
     - target: {fileID: 1257470380752315277, guid: d3078a3694e10e6428e91ba3ddca4a9c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257470380752315277, guid: d3078a3694e10e6428e91ba3ddca4a9c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1408486861}
+      objectReference: {fileID: 233686811}
+    - target: {fileID: 1257470380752315277, guid: d3078a3694e10e6428e91ba3ddca4a9c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257470380752315277, guid: d3078a3694e10e6428e91ba3ddca4a9c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PauseCanvas, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1257470380752315279, guid: d3078a3694e10e6428e91ba3ddca4a9c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

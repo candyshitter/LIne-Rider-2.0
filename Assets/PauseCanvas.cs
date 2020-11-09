@@ -8,7 +8,25 @@ public class PauseCanvas : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
-            pausePanel.SetActive(!pausePanel.activeSelf);
+        if (!Input.GetKeyDown(KeyCode.Escape)) return;
+        if(!pausePanel.activeSelf)
+            PauseGame();
+        else
+            PlayGame();
+    }
+
+    //Called by onClick continue button
+    public void PlayGame()
+    {
+        pausePanel.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    private void PauseGame()
+    {
+        pausePanel.SetActive(true);
+        GameStateHolder.IsPlaying = false;
+        PlayToggle.Reset();
+        Time.timeScale = 0;
     }
 }
