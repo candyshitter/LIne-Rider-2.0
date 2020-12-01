@@ -12,6 +12,6 @@ public class PanEditor : ILineEditor
         if (Input.GetMouseButtonDown(0)) 
             _cameraMove.StartPosition = _cameraMove.MouseToWorld;
         if (!Input.GetMouseButton(0)) return;
-        _cameraMove.MoveCamera();
+        _cameraMove.MoveCamera(_cameraMove.MouseToWorld);
     }
 }

@@ -13,9 +13,9 @@ public class CameraMove : MonoBehaviour
 		if (Input.GetMouseButtonDown(2))
 			StartPosition = MouseToWorld;
 		if (!Input.GetMouseButton(2)) return;
-		MoveCamera();
+		MoveCamera(MouseToWorld);
 	}
 
-	public void MoveCamera() => 
-		_camera.transform.position += StartPosition - _camera.ScreenToWorldPoint(Input.mousePosition);
+	public void MoveCamera(Vector3 inputPos) => 
+		_camera.transform.position += StartPosition - inputPos;
 }
